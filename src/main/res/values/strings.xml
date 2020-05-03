@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Excuse Maker</string>
+    <string name="title_home">Home</string>
+
+    <string name="title_settings">Settings</string>
+    <string name="copy_to_clipboard">Copy to clipboard</string>
+    <string name="generate">Generate an excuse</string>
+    <string name="final_excuse">Final excuse</string>
+    <string name="will_go_here">will go here!</string>
+    <string name="lowercase_mode">lowercase mode</string>
+    <string name="uppercase_mode">UPPERCASE MODE</string>
+    <string name="furry_mode">Furry Mode</string>
+    <string name="mockery_mode">MoCkErY MoDe</string>
+    <string name="output_settings">Output Settings</string>
+    <string name="about_text">A port of the iOS ExcuseMaker for Android, made by ptgms, licensed under the WTFPL license.</string>
+    <string name="view_source">View Source</string>
+</resources>

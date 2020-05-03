@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Excuse Maker</string>
+    <string name="title_home">Hauptbildschirm</string>
+    <string name="title_settings">Einstellungen</string>
+    <string name="copy_to_clipboard">In Zwischenablage kopieren</string>
+    <string name="generate">Entschuldigung generieren</string>
+    <string name="final_excuse">Generierte Entschuldigung</string>
+    <string name="will_go_here">wird hier erscheinen!</string>
+    <string name="lowercase_mode">kleinbuchstaben-modus</string>
+    <string name="uppercase_mode">SCHREI-MODUS</string>
+    <string name="furry_mode">Furry-Modus</string>
+    <string name="mockery_mode">lUsTigMaCh-MoDuS</string>
+    <string name="output_settings">Ausgabe Einstellungen</string>
+    <string name="about_text">Ein Port der iOS ExcuseMaker App für Android, lizensiert unter der WTFPL Lizens.</string>
+    <string name="view_source">Quellcode anzeigen</string>
+</resources>
