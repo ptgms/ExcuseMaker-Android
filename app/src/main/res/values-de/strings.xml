@@ -12,6 +12,6 @@
     <string name="furry_mode">Furry-Modus</string>
     <string name="mockery_mode">lUsTigMaCh-MoDuS</string>
     <string name="output_settings">Ausgabe Einstellungen</string>
-    <string name="about_text">Ein Port der iOS ExcuseMaker App für Android, lizensiert unter der WTFPL Lizens.</string>
+    <string name="about_text">Ein Port der iOS ExcuseMaker App für Android, lizensiert unter der WTFPL Lizenz.</string>
     <string name="view_source">Quellcode anzeigen</string>
 </resources>
