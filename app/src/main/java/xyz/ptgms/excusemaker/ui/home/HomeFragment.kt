@@ -48,30 +48,38 @@ class HomeFragment : Fragment() {
                 val r2 = Random()
                 val random1 = r.nextInt(excusesOneDE.size)
                 val random2 = r2.nextInt(excusesTwoDE.size)
-                if (lowercase) {
-                    text1.text = excusesOneDE[random1].toLowerCase(Locale.ROOT)
-                    text2.text = excusesTwoDE[random2].toLowerCase(Locale.ROOT)
-                } else if (uppercase) {
-                    text1.text = excusesOneDE[random1].toUpperCase(Locale.ROOT)
-                    text2.text = excusesTwoDE[random2].toUpperCase(Locale.ROOT)
-                } else {
-                    text1.text = excusesOneDE[random1]
-                    text2.text = excusesTwoDE[random2]
+                when {
+                    lowercase -> {
+                        text1.text = excusesOneDE[random1].toLowerCase(Locale.ROOT)
+                        text2.text = excusesTwoDE[random2].toLowerCase(Locale.ROOT)
+                    }
+                    uppercase -> {
+                        text1.text = excusesOneDE[random1].toUpperCase(Locale.ROOT)
+                        text2.text = excusesTwoDE[random2].toUpperCase(Locale.ROOT)
+                    }
+                    else -> {
+                        text1.text = excusesOneDE[random1]
+                        text2.text = excusesTwoDE[random2]
+                    }
                 }
             } else {
                 val r = Random()
                 val r2 = Random()
                 val random1 = r.nextInt(excusesOne.size)
                 val random2 = r2.nextInt(excusesTwo.size)
-                if (lowercase) {
-                    text1.text = excusesOne[random1].toLowerCase(Locale.ROOT)
-                    text2.text = excusesTwo[random2].toLowerCase(Locale.ROOT)
-                } else if (uppercase) {
-                    text1.text = excusesOne[random1].toUpperCase(Locale.ROOT)
-                    text2.text = excusesTwo[random2].toUpperCase(Locale.ROOT)
-                } else {
-                    text1.text = excusesOne[random1]
-                    text2.text = excusesTwo[random2]
+                when {
+                    lowercase -> {
+                        text1.text = excusesOne[random1].toLowerCase(Locale.ROOT)
+                        text2.text = excusesTwo[random2].toLowerCase(Locale.ROOT)
+                    }
+                    uppercase -> {
+                        text1.text = excusesOne[random1].toUpperCase(Locale.ROOT)
+                        text2.text = excusesTwo[random2].toUpperCase(Locale.ROOT)
+                    }
+                    else -> {
+                        text1.text = excusesOne[random1]
+                        text2.text = excusesTwo[random2]
+                    }
                 }
             }
             if (furry) {
