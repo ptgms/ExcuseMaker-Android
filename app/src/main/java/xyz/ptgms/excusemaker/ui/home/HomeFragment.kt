@@ -16,7 +16,6 @@ import xyz.ptgms.excusemaker.R
 import java.util.*
 
 class HomeFragment : Fragment() {
-    private val homeViewModel: HomeViewModel? = null
     @SuppressLint("SetTextI18n")
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val view = inflater.inflate(R.layout.fragment_home, container, false)
@@ -108,18 +107,18 @@ class HomeFragment : Fragment() {
                 var final2 = ""
                 var state = true
                 for (i in text1.text.toString().indices) {
-                    if (state) {
-                        final1 += text1.text.toString().toUpperCase(Locale.ROOT)[i]
+                    final1 += if (state) {
+                        text1.text.toString().toUpperCase(Locale.ROOT)[i]
                     } else {
-                        final1 += text1.text.toString().toLowerCase(Locale.ROOT)[i]
+                        text1.text.toString().toLowerCase(Locale.ROOT)[i]
                     }
                     state = !state
                 }
                 for (i in text2.text.toString().indices) {
-                    if (state) {
-                        final2 += text2.text.toString().toUpperCase(Locale.ROOT)[i]
+                    final2 += if (state) {
+                        text2.text.toString().toUpperCase(Locale.ROOT)[i]
                     } else {
-                        final2 += text2.text.toString().toLowerCase(Locale.ROOT)[i]
+                        text2.text.toString().toLowerCase(Locale.ROOT)[i]
                     }
                     state = !state
                 }

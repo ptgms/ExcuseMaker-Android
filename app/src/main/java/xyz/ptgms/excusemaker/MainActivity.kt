@@ -6,6 +6,7 @@ import androidx.navigation.Navigation
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import kotlin.system.exitProcess
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -44,7 +45,7 @@ class MainActivity : AppCompatActivity() {
             2 -> furry
             3 -> mockery
             else -> {
-                System.exit(-1)
+                exitProcess(-1)
                 false
             }
         }
